@@ -1,0 +1,26 @@
+{
+  "name": "burgerexpress",
+  "version": "1.0.0",
+  "description": "burger logger with MySQL, Node, Express, Handlebars and ORM.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpeyre93/burgerExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpeyre93/burgerExpress/issues"
+  },
+  "homepage": "https://github.com/mpeyre93/burgerExpress#readme"
+}
