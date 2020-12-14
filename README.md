@@ -20,45 +20,61 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
 * [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
 
 
-#### App Setup
+#### App Setup Hx:
 
-1. Create a GitHub repo called `burger` and clone it to your computer.
+1. Created a GitHub repo called `burger` and cloned it to machine.
 
-2. Make a package.json file by running `npm init` from the command line.
+2. Created a package.json file by running `npm init` from the command line.
 
-3. Install the Express npm package: `npm install express`.
+3. Installed the Express npm package: `npm install express`.
 
 4. Create a server.js file.
 
-5. Install the Handlebars npm package: `npm install express-handlebars`.
+5. Installed the Handlebars npm package: `npm install express-handlebars`.
 
-6. Install MySQL npm package: `npm install mysql`.
+6. Installed MySQL npm package: `npm install mysql`.
 
-7. Require the following npm packages inside of the server.js file:
+7. Required the following npm packages inside of the server.js file:
    * express
 
+   #### DB Setup
+
+   1. Inside `burger` directory, created a `db` Folder.
+
+   2. In the `db` folder, created `schema.sql`& `seeds.sql` files. Write SQL queries this file that do the following:
+
+      * Created the `burgers_db`.
+      * USE the `burgers_db`.
+      * Created `burgers` table with these fields:
+      * **id**: an auto incrementing int that serves as the primary key.
+      * **burger_name**: a string.
+      * **devoured**: a boolean.
+      * Wrote INSERT queries within `seeds.sql` to populate `burgers` table with 3 entires.
+
+   4. Ran `schema.sql` and `seeds.sql` files into the mysql server from the command line by the following:
+
+      * Within the `db` folder of app,
+
+      * Start MySQL command line tool and login: `mysql -u root -p`.
+
+      * With the `mysql>` command line tool running, enter the command `source schema.sql`. This will run schema file and all of the queries in it -- in other words, creating the database.
+
+      * Insert entries defined in `seeds.sql` by running the file: `source seeds.sql`.
+
+      * Close out of the MySQL command line tool: `exit`.
 
 ### Minimum Requirements
 
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Heroku and adding a README.md are required for this homework. In addition, add this homework to your portfolio, more information can be found below.
+Attempt to complete homework assignment as described in instructions.  Hosting on Heroku and adding a README.md are required for this homework. In addition, add this homework to your portfolio, more information can be found below.
  
 - - -
 
-### Hosting on Heroku
+### Hosted on Heroku
 
-* **This assignment must be deployed.** * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository! Be sure to utilize the [MYSQL Heroku Deployment Guide](../../03-Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
+* **This application is deployed.** * Please see both the deployed Heroku link AND the link to the Github Repository for details! 
+Be sure to utilize the [MYSQL Heroku Deployment Guide](../../03-Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
 
 Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
-
-- - -
-
-### Create a README.md
-
-Add a `README.md` to your repository describing the project. Here are some resources for creating your `README.md`. Here are some resources to help you along the way:
-
-* [About READMEs](https://help.github.com/articles/about-readmes/)
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 - - -
 
