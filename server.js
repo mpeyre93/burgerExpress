@@ -1,11 +1,16 @@
+//intital starting point for Node/Express server
+
+//dependencies
 var express = require("express");
 
-var PORT = process.env.PORT || 8000;
+//set up express app
 var app = express();
+var PORT = process.env.PORT || 8000;
 
 //static content served from public dir
 app.use(express.static("public"));
 
+//set up express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -23,5 +28,5 @@ app.use(routes);
 //start server to begin listening
 app.listen(PORT, function(){
     //tell user server has started
-    console.log("Server listening on PORT:%s" + PORT);
+    console.log("Server listening on localhost" + PORT);
 });
