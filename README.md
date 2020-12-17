@@ -28,7 +28,7 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
 
 3. Installed the Express npm package: `npm install express`.
 
-4. Create a server.js file.
+4. Created a server.js file.
 
 5. Installed the Handlebars npm package: `npm install express-handlebars`.
 
@@ -63,12 +63,6 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
 
       * Close out of the MySQL command line tool: `exit`.
 
-### Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions.  Hosting on Heroku and adding a README.md are required for this homework. In addition, add this homework to your portfolio, more information can be found below.
- 
-- - -
-
 ### Hosted on Heroku
 
 * **This application is deployed.** * Please see both the deployed Heroku link AND the link to the Github Repository for details! 
@@ -76,14 +70,4 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../../03-Supplemental/MyS
 
 Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
 
-- - -
 
-### Add To Your Portfolio
-
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-
-- - -
-
-### Reminder
-
-When trying to connect remotely to your Heroku database on an open network such as a coffee shop, library, or even your University WiFi, it will be blocked. If you are experiencing a Heroku connection error, this could be why.
