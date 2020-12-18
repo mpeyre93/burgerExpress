@@ -19,29 +19,26 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
 
 #### App Setup Hx:
 
-1. Created a GitHub repo called `burger` and cloned it to machine.
+1. Created a GitHub repo
 
 2. Created a package.json file by running `npm init` from the command line.
 
 3. Installed the Express npm package: `npm install express`.
 
-4. Created a server.js file.
+4. Installed the Handlebars npm package: `npm install express-handlebars`.
 
-5. Installed the Handlebars npm package: `npm install express-handlebars`.
+5. Installed MySQL npm package: `npm install mysql`.
 
-6. Installed MySQL npm package: `npm install mysql`.
-
-7. Required the following npm packages inside of the server.js file:
+5. Required the following npm packages inside of the server.js file:
    * express
 
    #### DB Setup
 
-   1. Inside `burger` directory, created a `db` Folder.
+   1. Created a `db` Folder.
 
-   2. In the `db` folder, created `schema.sql`& `seeds.sql` files. Write SQL queries this file that do the following:
+   2. Created `schema.sql`& `seeds.sql` files. Write SQL queries this file that do the following:
 
       * Created the `burgers_db`.
-      * USE the `burgers_db`.
       * Created `burgers` table with these fields:
       * **id**: an auto incrementing int that serves as the primary key.
       * **name**: a string.
@@ -63,6 +60,7 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
 ### Hosted on Heroku
 
 * This application is deployed on Heroku, link to application below:
+   https://dry-shore-33185.herokuapp.com/
 
 
 
