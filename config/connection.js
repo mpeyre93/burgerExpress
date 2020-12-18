@@ -1,7 +1,10 @@
 //setup MySQL connection
 var mysql = require("mysql");
 
-
+//setup connection for jawsbd with heroku
+if (process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+}else {
     var connection = mysql.createConnection({
         host:"localhost",
         port: 3306,
@@ -9,6 +12,7 @@ var mysql = require("mysql");
         password: "rootroot",
         database: "burgers_db"
     });
+};
 
 //make connection
 connection.connect(function(err){

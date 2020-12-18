@@ -12,6 +12,27 @@
   "scripts": {
     "start": "node server.js"
   },
+  "development":{
+    "username":"u4ea3xncdl524243",
+    "password":"ywvy5pbf2vn6g397",
+    "database":"vnp98w3c39d5ojhs",
+    "host":"dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect":"mysql"
+  },
+  "test":{
+    "username":"u4ea3xncdl524243",
+    "password":"ywvy5pbf2vn6g397",
+    "database":"vnp98w3c39d5ojhs",
+    "host":"dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect":"mysql"
+  },
+  "production":{
+    "username":"u4ea3xncdl524243",
+    "password":"ywvy5pbf2vn6g397",
+    "database":"vnp98w3c39d5ojhs",
+    "host":"dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect":"mysql"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mpeyre93/burgerExpress.git"
