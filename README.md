@@ -17,9 +17,6 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
 * The app will store every burger in a database, whether devoured or not.
 ```
 
-* [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
-
-
 #### App Setup Hx:
 
 1. Created a GitHub repo called `burger` and cloned it to machine.
@@ -65,9 +62,8 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
 
 ### Hosted on Heroku
 
-* **This application is deployed.** * Please see both the deployed Heroku link AND the link to the Github Repository for details! 
-Be sure to utilize the [MYSQL Heroku Deployment Guide](../../03-Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
+* This application is deployed on Heroku, link below: 
 
-Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
+
 
 
