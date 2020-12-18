@@ -44,7 +44,7 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
       * USE the `burgers_db`.
       * Created `burgers` table with these fields:
       * **id**: an auto incrementing int that serves as the primary key.
-      * **burger_name**: a string.
+      * **name**: a string.
       * **devoured**: a boolean.
       * Wrote INSERT queries within `seeds.sql` to populate `burgers` table with 3 entires.
 
@@ -62,7 +62,8 @@ In this application features a burger logger with MySQL, Node, Express, Handleba
 
 ### Hosted on Heroku
 
-* This application is deployed on Heroku, link below: 
+* This application is deployed on Heroku, link to application below:
+
 
 
 
